@@ -2,6 +2,10 @@
 
 A modern, responsive travel agency website concept built with HTML, CSS and vanilla JavaScript. The design highlights destinations, curated travel experiences and a simple enquiry flow.
 
+## Live Demo
+
+[View the live website](https://mkaceduet-hub.github.io/travel-tourism-agency-website/)
+
 ## Features
 
 - Editorial-style travel landing page with immersive hero section
@@ -33,14 +37,6 @@ A modern, responsive travel agency website concept built with HTML, CSS and vani
 3. Open `index.html` in a browser.
 
 No build tools or package installation are required.
-
-## Publish with GitHub Pages
-
-1. Open the repository on GitHub.
-2. Go to **Settings → Pages**.
-3. Under **Build and deployment**, choose **Deploy from a branch**.
-4. Select the `main` branch and `/(root)` folder, then save.
-5. Wait for GitHub Pages to publish the site.
 
 ## Customization
 
