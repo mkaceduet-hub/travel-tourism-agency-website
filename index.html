@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Explore unforgettable journeys with Wayfarer Travel Co. Discover curated tours, inspiring destinations and travel experiences made simple.">
+  <title>Wayfarer Travel Co. | Find Your Somewhere</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Wayfarer Travel Co home"><span class="brand-mark">W</span><span>wayfarer<span class="brand-light">.</span><small>TRAVEL CO.</small></span></a>
+    <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+    <nav class="main-nav" aria-label="Main navigation">
+      <a href="#destinations">Destinations</a><a href="#experiences">Experiences</a><a href="#about">About us</a><a href="#contact">Contact</a>
+      <a class="nav-cta" href="#contact">Plan a trip <span>↗</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-shade"></div>
+      <div class="hero-content">
+        <p class="eyebrow light">GO BEYOND THE ORDINARY</p>
+        <h1>Find your<br><em>somewhere.</em></h1>
+        <p class="hero-copy">Thoughtful journeys. Remarkable places. Stories you'll carry long after you return.</p>
+        <a class="button button-light" href="#destinations">Explore destinations <span>↗</span></a>
+      </div>
+      <div class="hero-note"><span class="note-line"></span><span>MADE FOR THE CURIOUS</span></div>
+      <div class="hero-count">01 <span>/</span> 04</div>
+    </section>
+
+    <section class="intro section-wrap">
+      <div><p class="eyebrow">TRAVEL, REIMAGINED</p><h2>Not just places.<br><em>Perspectives.</em></h2></div>
+      <div class="intro-text"><p>We believe the best trips are measured in moments, not miles. From quiet coastal hideaways to vibrant city streets, we bring together the details that make a journey feel like yours.</p><a class="text-link" href="#about">Get to know us <span>↗</span></a></div>
+    </section>
+
+    <section class="destinations section-wrap" id="destinations">
+      <div class="section-heading"><div><p class="eyebrow">THE WORLD IS WAITING</p><h2>Places to <em>fall for.</em></h2></div><a class="text-link" href="#contact">View all destinations <span>↗</span></a></div>
+      <div class="destination-grid">
+        <article class="destination-card destination-large"><img src="https://images.unsplash.com/photo-1533105079780-92b9be482077?auto=format&fit=crop&w=1200&q=85" alt="White buildings overlooking the sea in Santorini"><div class="card-overlay"><span>GREECE · 7 DAYS</span><h3>Santorini</h3><p>Sunlit shores & island days</p></div></article>
+        <article class="destination-card"><img src="https://images.unsplash.com/photo-1516483638261-f4dbaf036963?auto=format&fit=crop&w=900&q=85" alt="Colorful coastal villages of Cinque Terre"><div class="card-overlay"><span>ITALY · 8 DAYS</span><h3>Cinque Terre</h3><p>Color, coast & la dolce vita</p></div></article>
+        <article class="destination-card"><img src="https://images.unsplash.com/photo-1518548419970-58e3b4079ab2?auto=format&fit=crop&w=900&q=85" alt="Tropical island beach with turquoise water"><div class="card-overlay"><span>INDONESIA · 9 DAYS</span><h3>Bali</h3><p>Slow living, island style</p></div></article>
+      </div>
+    </section>
+
+    <section class="experience" id="experiences">
+      <div class="experience-image"><img src="https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=1200&q=85" alt="Mountain lake and scenic alpine landscape"></div>
+      <div class="experience-copy"><p class="eyebrow light">THE WAYFARER DIFFERENCE</p><h2>More feeling.<br><em>Less planning.</em></h2><p>We take care of the moving parts, so you can be present for the moments that matter. Every itinerary is shaped around your pace, your interests and your idea of a perfect escape.</p><ul><li><span>01</span> Personal trip planning</li><li><span>02</span> Handpicked local stays</li><li><span>03</span> Experiences with meaning</li></ul><a class="button button-outline" href="#contact">Create your journey <span>↗</span></a></div>
+    </section>
+
+    <section class="about section-wrap" id="about">
+      <div class="about-stat"><strong>01</strong><span>ONE WORLD.<br>ENDLESS WAYS TO EXPLORE.</span></div>
+      <div><p class="eyebrow">A LITTLE ABOUT US</p><h2>Good trips start<br>with <em>good people.</em></h2><p class="about-copy">Wayfarer is a travel concept built around curiosity, connection and considered details. We pair destination knowledge with a personal approach to help make every adventure feel effortless.</p></div>
+    </section>
+
+    <section class="quote-band"><p>“The journey is the destination.”</p><span>TAKE THE LONG WAY HOME</span></section>
+
+    <section class="contact section-wrap" id="contact">
+      <div class="contact-copy"><p class="eyebrow">YOUR NEXT CHAPTER STARTS HERE</p><h2>Where to <em>next?</em></h2><p>Tell us what you're dreaming about. We'll help you turn it into a journey worth remembering.</p><div class="contact-details"><span>LET'S TALK TRAVEL</span><a href="mailto:hello@wayfarer.example">hello@wayfarer.example</a><small>Replace this demo email with your business contact.</small></div></div>
+      <form class="contact-form" id="trip-form">
+        <label for="name">Your name</label><input id="name" name="name" placeholder="How should we call you?" required>
+        <label for="email">Email address</label><input id="email" name="email" type="email" placeholder="you@example.com" required>
+        <label for="destination">Where would you like to go?</label><input id="destination" name="destination" placeholder="A place on your mind...">
+        <label for="message">Tell us a little about your trip</label><textarea id="message" name="message" rows="4" placeholder="Dates, travel style, number of travelers..."></textarea>
+        <button class="button button-dark" type="submit">Send an enquiry <span>↗</span></button><p class="form-status" aria-live="polite"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer"><a class="brand brand-footer" href="#home"><span class="brand-mark">W</span><span>wayfarer<span class="brand-light">.</span><small>TRAVEL CO.</small></span></a><p>Go somewhere. Feel something.</p><span>© <span id="year"></span> Wayfarer Travel Co. · Demo concept</span></footer>
+  <script src="script.js"></script>
+</body>
+</html>
